@@ -39,7 +39,8 @@ This is a Node.js-based backend application that automates the creation of AWS E
 
 git clone https://github.com/your-username/multicloud-snapshot-backup.git
 cd multicloud-snapshot-backup
-
+```
+```bash
 2. Install Dependencies
 
 
@@ -50,7 +51,8 @@ AWS_ACCESS_KEY_ID=your_aws_access_key
 AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 MONGO_URI=your_mongodb_connection_string
 AWS_REGION=us-east-1
-
+```
+```bash
 3. Running the Server
 
 node server.js
@@ -59,7 +61,8 @@ The server will run at http://localhost:5000 by default.
 API Endpoint
 POST /create-snapshot
 Creates snapshots for all EBS volumes attached to the given EC2 instance.
-
+```
+```bash
 4. Request Body:
 
 
@@ -67,7 +70,8 @@ Creates snapshots for all EBS volumes attached to the given EC2 instance.
   "instanceId": "i-0123456789abcdef0",
   "region": "us-west-2"
 }
-
+```
+```bash
 5. Sample Response:
 
 {
@@ -81,6 +85,8 @@ Creates snapshots for all EBS volumes attached to the given EC2 instance.
     }
   ]
 }
+```
+```bash
 6. MongoDB Schema Example
 
 {
