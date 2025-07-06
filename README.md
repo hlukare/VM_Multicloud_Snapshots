@@ -19,6 +19,7 @@ This is a Node.js-based backend application that automates the creation of AWS E
 - Postman – API testing
 
 ## Project Structure
+```bash
 /project-root
 ├── server.js # Application entry point
 ├── routes/
@@ -29,7 +30,7 @@ This is a Node.js-based backend application that automates the creation of AWS E
 │ └── Snapshot.js # Mongoose schema
 ├── .env # Environment variables (excluded from repo)
 └── README.md # Project documentation
-
+```
 
 ## Setup Instructions
 ```bash
